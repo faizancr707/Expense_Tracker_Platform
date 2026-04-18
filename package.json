@@ -1,0 +1,31 @@
+{
+  "name": "expense-tracker-app-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1031.0",
+    "@aws-sdk/credential-provider-env": "^3.972.26",
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.1",
+    "multer": "^2.1.1",
+    "mysql2": "^3.22.1",
+    "razorpay": "^2.9.6",
+    "sequelize": "^6.37.8",
+    "sib-api-v3-sdk": "^8.5.0",
+    "uuid": "^13.0.0"
+  }
+}
